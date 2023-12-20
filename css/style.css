@@ -6,7 +6,7 @@
 
 .home {
   height: 100%;
-  padding: 80vh;
+  padding-top: 40vh;
   overflow: hidden;
   align-items: center;
   text-align: center;
@@ -16,7 +16,7 @@
 .home__name {
   font-size: 5rem;
   padding-bottom: 1rem;
-  margin-top: 1rem;
+  margin-bottom: 1rem;
   border-bottom: 2px solid #fff;
 }
 .home__name--last {
@@ -286,6 +286,9 @@
   grid-gap: 2rem;
   font-size: 1.2rem;
 }
+.contact__list .text-secondary {
+  margin-top: 0.5rem;
+}
 .contact .social-icons {
   position: initial;
   margin-top: 2rem;
@@ -373,18 +376,16 @@ main {
   height: 100%;
   width: 100%;
 }
-
-.social-icons {
+main .social-icons {
   position: fixed;
   bottom: 1rem;
   left: 1rem;
 }
-
-a {
+main .social-icons a {
   padding: 0.4rem;
   transition: all 0.5s ease-in-out;
 }
-a:hover {
+main .social-icons a:hover {
   color: #ff652f;
 }
 

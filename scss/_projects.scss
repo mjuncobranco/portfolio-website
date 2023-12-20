@@ -53,7 +53,7 @@
             background: $secondary-color; 
             opacity: 0;
             @include transition-ease;
-       }
+        }
 
         &:hover {
           &::after {
